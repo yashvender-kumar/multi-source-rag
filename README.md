@@ -33,7 +33,7 @@ This is a RAG-based AI chatbot. You can upload PDF files, CSV files, or add webs
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/multi-source-rag.git](https://github.com/your-username/multi-source-rag.git)
+   git clone (https://github.com/your-username/multi-source-rag.git)
    cd multi-source-rag
 
 2. Create and activate a virtual environment:
