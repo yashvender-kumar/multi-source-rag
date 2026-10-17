@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 llama-index
 llama-index-vector-stores-faiss
 llama-index-embeddings-huggingface
@@ -6,3 +7,16 @@ streamlit
 python-dotenv
 llama-index-llms-groq
 pypdf
+=======
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-groq
+sentence-transformers
+faiss-cpu
+pypdf
+streamlit
+python-dotenv
+beautifulsoup4
+>>>>>>> 2c6e4f6e67570f40a11ba8d6cc3aac254f1ff82f

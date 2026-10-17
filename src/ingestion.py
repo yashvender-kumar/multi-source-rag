@@ -27,18 +27,25 @@ def load_csvs():
     return all_docs
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c6e4f6e67570f40a11ba8d6cc3aac254f1ff82f
 # Web URLs Load Karein
 def load_urls(urls):
     if not urls:
         return []
 
+<<<<<<< HEAD
     loader = WebBaseLoader(
         urls,
         header_template={
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
     )
+=======
+    loader = WebBaseLoader(urls)
+>>>>>>> 2c6e4f6e67570f40a11ba8d6cc3aac254f1ff82f
     docs = loader.load()
 
     for doc in docs:

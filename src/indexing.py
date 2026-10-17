@@ -26,11 +26,15 @@ def build_index(docs):
 
 
 def load_index():
+<<<<<<< HEAD
     try:
         return FAISS.load_local(STORAGE_DIR, embedding, allow_dangerous_deserialization=True)
     except Exception as e:
         print(f"Index file nahi mili: {e}")
         return None
+=======
+    return FAISS.load_local(STORAGE_DIR, embedding, allow_dangerous_deserialization=True)
+>>>>>>> 2c6e4f6e67570f40a11ba8d6cc3aac254f1ff82f
 
 if __name__ == "__main__":
     docs = load_all_docs()
